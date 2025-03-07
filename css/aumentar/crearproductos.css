@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ebefe8;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #155a90;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #155a90;
+  }
+  
+  form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #155a90;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #155a90;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #155a90;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+  }
+  
+  thead {
+    background-color: #155a90;
+    color: #fff;
+  }
+  
+  th,
+  td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  th:first-child,
+  td:first-child {
+    width: 20%;
+  }
+  
+  th:nth-child(2),
+  td:nth-child(2) {
+    width: 30%;
+  }
+  
+  th:nth-child(3),
+  td:nth-child(3) {
+    width: 15%;
+  }
+  
+  th:nth-child(4),
+  td:nth-child(4) {
+    width: 20%;
+  }
+  
+  th:last-child,
+  td:last-child {
+    width: 15%;
+  }
+  
+  td img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  td button {
+    background-color: #ebefe8;
+    color: #155a90;
+    border: 1px solid #155a90;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+  
+  td button.editar {
+    background-color: #155a90;
+    color: #fff;
+    border-color: #155a90;
+    margin-right: 5px;
+  }
+  
+  td button.eliminar {
+    background-color: #ff5050;
+    color: #fff;
+    border-color: #ff5050;
+  }
+  
+  #formulario-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  #formulario-producto h2 {
+    margin-top: 0;
+  }
+  
+  #formulario-producto label {
+    width: 100%;
+  }
+  
+  #tabla-productos {
+    margin-top: 20px;
+  }
+  .back-button {
+    position: absolute;
+    font-size: 18px;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #155a90;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px;
+}

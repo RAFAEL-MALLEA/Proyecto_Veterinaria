@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ebefe8;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #155a90;
+  }
+
+  form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #155a90;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #155a90;
+  }
+
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+  input[type="button"] {
+    background-color: #155a90;
+    color: #ebefe8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    max-width: 800px;
+  }
+
+  thead {
+    background-color: #155a90;
+    color: #fff;
+  }
+
+  th,
+  td {
+    text-align: center;
+    padding: 10px;
+  }
+
+  th:first-child,
+  td:first-child {
+    width: 50%;
+  }
+
+  th:last-child,
+  td:last-child {
+    width: 25%;
+  }
+
+  td button {
+    background-color: green;
+    color: #ebefe8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+
+  td:last-child button{
+      background-color: red;
+      color: #ebefe8;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px 20px;
+  }
+
+  #logout-button {
+    position: absolute;
+    font-size: 18px;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #155a90;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px;
+  }
+  .back-button {
+    position: absolute;
+    font-size: 18px;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #155a90;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px;
+}

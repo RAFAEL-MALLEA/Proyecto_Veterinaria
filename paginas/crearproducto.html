@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veterinaria Huellita - Gestión de Productos</title>
+  <link rel="stylesheet" href="../css/aumentar/crearproductos.css">
+</head>
+
+<body>
+  <h1>Gestión de Productos</h1>
+  <a href="../paginas/aumentar.html" class="back-button">Volver</a>
+
+  <form id="formulario-producto">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required>
+
+    <label for="descripcion">Descripción:</label>
+    <input type="text" id="descripcion" required>
+
+    <label for="precio">Precio:</label>
+    <input type="number" id="precio" step="0.01" required>
+
+    <label for="imagenUrl">URL de la imagen:</label>
+    <input type="text" id="imagenUrl" required>
+
+    <button type="submit" id="agregar-btn">Agregar Producto</button>
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+        <th>Imagen</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <table id="tabla-productos">
+    <thead>
+      <tr>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-firestore.js"></script>
+  <script src="../js/crearproducto.js"></script>
+</body>
+
+</html>

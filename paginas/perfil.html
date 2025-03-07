@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Perfil</title>
+<script src="https://www.paypal.com/sdk/js?client-id=AclcsVUqq1k9tQBq9b1CZpNyuJ-iJmtaPZoWv14skjkZrPCrpc3aa-eI7Kl7se4Id-wTcfJTFkMoEY_1&currency=USD"></script>  
+<link rel="stylesheet" href="../css/perfil/perfil.css">
+	
+  </head>
+  <body>
+    <a href="../paginas/inicio.html" class="back-button">Volver</a>
+    <div class="container">
+        <h1>Perfil de Huellita</h1>
+        <div class="profile-info">
+            <p>Nombre: <span id="nombre"></span></p>
+            <p>Apellido: <span id="apellido"></span></p>
+            <p>Email: <span id="email"></span></p>
+            <p>Pendiente de Pago: $<span id="balance"></span></p>
+        </div>
+        <div id="paypal-button-container"></div>
+        <button onclick="cerrarSesion()">Cerrar sesión</button>  
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-firestore.js"></script>
+    <script src="../js/perfil.js"></script>
+</body>
+
+</html>

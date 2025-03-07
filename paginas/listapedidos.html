@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Pedidos</title>
+  <link rel="stylesheet" href="../css/aumentar/pedidos.css">
+</head>
+<body>
+  <h1>Pedidos</h1>
+  <a href="../paginas/aumentar.html" class="back-button">Volver</a>
+
+
+  <table>
+    <tr>
+      <th>ID Pedido</th>
+      <th>Nombre Usuario</th>
+      <th>Correo Electrónico</th>
+      <th>Productos</th>
+      <th>Acciones</th>
+    </tr>
+    <tbody id="order-list"></tbody>
+  </table>
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+  <script src="../js/pedidos.js"></script>
+</body>
+</html>

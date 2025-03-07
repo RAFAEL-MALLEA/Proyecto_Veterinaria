@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://www.paypal.com/sdk/js?client-id=AclcsVUqq1k9tQBq9b1CZpNyuJ-iJmtaPZoWv14skjkZrPCrpc3aa-eI7Kl7se4Id-wTcfJTFkMoEY_1&currency=USD"></script>  
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" href="../css/productos/carrito.css">
+</head>
+<body>
+    <a href="../paginas/productos.html" class="back-button">Volver</a>
+
+  <h1>Carrito de Compras</h1>
+
+  <div id="cart-items">
+    <!-- Aquí se mostrarán los productos del carrito -->
+  </div>
+
+  <p>Total a pagar: <span id="cart-total">$0.00</span></p>
+
+  <div id="paypal-button-container"></div>
+
+
+
+  <!-- Importa tu archivo JavaScript después de los elementos del DOM -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+  <script src="../js/carrito.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Crear mascota</title>
+  <link rel="stylesheet" href="../css/aumentar/mascotas.css">
+</head>
+<body>
+    <a href="../paginas/aumentar.html" class="back-button">Volver</a>
+  <h1>Crear mascota</h1>
+  <form>
+    <label for="owner-email">Correo electrónico del propietario:</label>
+    <input type="email" id="owner-email" name="owner-email" required>
+    <label for="pet-name">Nombre de la mascota:</label>
+    <input type="text" id="pet-name" name="pet-name" required>
+    <label for="pet-birthdate">Fecha de nacimiento de la mascota:</label>
+    <input type="date" id="pet-birthdate" name="pet-birthdate" required>
+    <label for="vaccinated">¿Vacunas al día?:</label>
+    <input type="checkbox" id="vaccinated" name="vaccinated"><br><br>
+    <input type="button" value="Enviar" onclick="addPet()">
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre de la mascota</th>
+        <th>Fecha de nacimiento</th>
+        <th>Vacunas al día</th>
+        <th>Propietario</th>
+        <th>Correo</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+    </tbody>
+  </table>
+  
+<!-- Enlace a la biblioteca de Firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-firestore.js"></script>
+
+<!-- Enlace al archivo crearmascota.js -->
+<script src="../js/crearmascota.js"></script>
+</body>
+</html>

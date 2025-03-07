@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family:'Times New Roman', Times, serif;
+  background-color: #ebefe8;
+}
+
+.back-button {
+  position: absolute;
+  font-size: 18px;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: #155a90;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #155a90;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.profile-info p {
+  font-size: 22px;
+  display: block;
+  margin-bottom: 5px;
+  color: #155a90;
+}
+
+.profile-info span {
+  font-size: 22px;
+  font-weight: bold;
+  color: #155a90;
+}
+
+#paypal-button-container {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #20a5d9;
+  width: 100%;
+  color: #ebefe8;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #155a90;
+}
+
+/* Logout button */
+button.logout {
+  background-color: #c60e0e;
+}
